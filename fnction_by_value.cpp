@@ -1,7 +1,6 @@
 #include <iostream>
 
-float calcu()
-{
+float calcu() {
     float cp, sp, profit;
     std::cout << "enter cost price : ";
     std::cin >> cp;
@@ -13,8 +12,7 @@ float calcu()
     return profit;
 }
 
-void asmr()
-{
+void asmr() {
     float cp, sp, profit;
     std::cout << "enter cost price : ";
     std::cin >> cp;
@@ -26,17 +24,16 @@ void asmr()
     
     if (profit > 0)
         std::cout << "you have made a profit of " << profit;
-    else if (profit < 0) // FIX 2: Replaced 'if' with 'else if'
+    else if (profit < 0)
         std::cout << "you have made a loss of " << -profit;
-    else // FIX 1: Replaced 'if (profit = 0)' with 'else'
-        std::cout << "you have made neither profit nor loss";
+    else  std::cout << "you have made neither profit nor loss";
     std::cout << '\n';
 }
 
 int main() {
     char choice; // Removed unused 'select' variable
     
-    // FIX 3: Replaced the broken while-loop logic with a clean do-while loop
+    
     do {
         std::cout << "do you want to see profit in numbers or profit in percentage\n";
         std::cout << "please select n for numbers and p for percentage\n ";
@@ -58,14 +55,14 @@ int main() {
         }
         else 
         {
-            std::cout << "invalid choice pal\n";
+            std::cout << "invalid choice \n";
         }
 
         std::cout << "-------------------------------------------\n";
         std::cout << "do you want to calculate again? y/n\n";
         std::cin >> choice; 
         
-    } while (choice == 'y' || choice == 'Y'); // Loop continues smoothly here
+    } while (choice == 'y' || choice == 'Y');
     
     return 0;
 }
