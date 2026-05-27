@@ -5,4 +5,4 @@ This is a foundational practice log I wrote to practice the basic building block
 
 ### Files in this repository:
 * `fnction_by_value.cpp` - Practice with local function, parameter, .
-* `string.cpp` - Handling console user input .
+* `string.cpp` - Managing Enter key responses and input streams. .
