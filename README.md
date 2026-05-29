@@ -7,3 +7,4 @@ This is a foundational practice log I wrote to practice the basic building block
 * `fnction_by_value.cpp` - Practice with local function, parameter, .
 * `string.cpp` - Managing Enter key responses and input streams. .
 * `math_functions.cpp` - practised math related functions.
+* `hypotenuse.cpp` - practised with math functions
