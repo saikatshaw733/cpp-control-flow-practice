@@ -31,9 +31,7 @@ void asmr() {
 }
 
 int main() {
-    char choice; // Removed unused 'select' variable
-    
-    
+    char choice; 
     do {
         std::cout << "do you want to see profit in numbers or profit in percentage\n";
         std::cout << "please select n for numbers and p for percentage\n ";
