@@ -9,3 +9,4 @@ This is a foundational practice log I wrote to practice the basic building block
 * `math_functions.cpp` - practised math related functions.
 * `hypotenuse.cpp` - practised with math functions
 * `calculator.cpp` - CLI calculator demonstrating control flow.
+* `machine_controller` - A  C++ terminal application that maps numeric choices to display system status readouts, built as a practical exercise in managing input and avoiding loop lockups.
