@@ -8,3 +8,4 @@ This is a foundational practice log I wrote to practice the basic building block
 * `string.cpp` - Managing Enter key responses and input streams. .
 * `math_functions.cpp` - practised math related functions.
 * `hypotenuse.cpp` - practised with math functions
+* `calculator.cpp` - CLI calculator demonstrating control flow.
