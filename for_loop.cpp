@@ -23,7 +23,7 @@ int sum()
     {
         result=result + i;
     }
-    std::cout<<"sum of "<<a<< " consecutive natural numbers\n"<<result<<'\n';
+    std::cout<<"sum of "<<n<< " consecutive natural numbers\n"<<result<<'\n';
     return(0);
 }
 int prime()
