@@ -26,3 +26,32 @@ int main()
     std::cout<<"sum of "<<a<< " consecutive natural numbers\n"<<result;
     return(0);
 }
+int prime()
+{
+    int i=0,n,x=0;
+    char ch;
+    std::cout<<"----find whether a number is prime number----\n\n";
+    do {
+    std::cout<<"enter a number to find whether the number is prime number or not : ";
+    while(!(std::cin>>n))
+    {
+        std::cout<<"invalid responce.\n please enter a digit";
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max() , '\n');
+        
+    }
+    for( i=1; i<=n; i++ )
+    {
+        if( n%i==0 )
+        x++;
+        
+    }
+    if ( x == 2 )
+    std::cout<<"the number "<<n<<" is a prime number\n";
+    else 
+        std::cout<<"the number "<<n<<" is not a prime number because it can be divided by "<<x<<" numbers\n\n";
+        std::cout<<" do you want to continue ? y|n\n";
+        std::cin>>ch; 
+}while( ch == 'y' || ch == 'Y');
+  return 0;  
+}
