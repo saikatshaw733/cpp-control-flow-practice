@@ -10,3 +10,4 @@ This is a foundational practice log I wrote to practice the basic building block
 * `hypotenuse.cpp` - practised with math functions
 * `calculator.cpp` - CLI calculator demonstrating control flow.
 * `machine_controller.cpp` - A  C++ terminal application that maps numeric choices to display system status readouts, built as a practical exercise in managing input and avoiding loop lockups.
+* `menu_driven_math_utils.cpp` - A console menu application that lets the user choose mathematical functions such as 1) calculating consecutive sums 2) checking for prime numbers. It runs inside a continuous loop so the user can perform multiple calculations without restarting the program.
