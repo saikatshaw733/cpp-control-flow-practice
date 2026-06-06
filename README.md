@@ -12,4 +12,5 @@ This is a foundational practice log I wrote to practice the basic building block
 * `machine_controller.cpp` - A  C++ terminal application that maps numeric choices to display system status readouts, built as a practical exercise in managing input and avoiding loop lockups.
 * `menu_driven_math_utils.cpp` - A console menu application that lets the user choose mathematical functions such as 1) calculating consecutive sums 2) checking for prime numbers. It runs inside a continuous loop so the user can perform multiple calculations without restarting the program.
 * `dice_simulator.cpp` - A  command-line game utility used as a personal sandbox to practise time-based random seeding (`srand`), and boundary mapping via the modulo operator to simulate a dynamic polyhedral dice system.
+* `ROCK_PAPER_SCISSORS.cpp` - A terminal based rock paper scissor game.
 
