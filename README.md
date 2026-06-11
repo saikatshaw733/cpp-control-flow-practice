@@ -13,5 +13,5 @@ This is a foundational practice log I wrote to practice the basic building block
 * `menu_driven_math_utils.cpp` - A console menu application that lets the user choose mathematical functions such as 1) calculating consecutive sums 2) checking for prime numbers. It runs inside a continuous loop so the user can perform multiple calculations without restarting the program.
 * `dice_simulator.cpp` - A  command-line game utility used as a personal sandbox to practise time-based random seeding (`srand`), and boundary mapping via the modulo operator to simulate a dynamic polyhedral dice system.
 * `ROCK_PAPER_SCISSORS.cpp` - A terminal based rock paper scissor game.
-* `array.cpp` - A basic C++ console application that demonstrates how to pass arrays into fuction to calculate cumulative sum.
+* `array.cpp` - A basic C++ console application that demonstrates how to pass arrays into fuction to calculate cumulative sum , added a function to find an element in the array.
 
