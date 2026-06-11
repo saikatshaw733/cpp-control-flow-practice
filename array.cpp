@@ -21,6 +21,7 @@ double find(double prices[],int size)
         {
             std::cout<<"\nthe number "<<x<<" is located in "<<i+1<<" position\n";
             found = true;
+            return(i+1);
             break;
         }   
     }
@@ -34,6 +35,5 @@ int main()
     double total = gettotal(prices,size);
     std::cout<<"the total sum is "<<total;
     find(prices,size);
-
     return(0);
 }
