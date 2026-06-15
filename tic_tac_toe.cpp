@@ -3,6 +3,8 @@
 void gameboard(char space[], char player);
 void userInput(char space[], char player);
 void computerInput(char *space, char computer);
+bool winner(char *space);
+bool tieUP(char *space);
 int main()
 {
     char space[9]={' ',' ',' ',' ',' ',' ',' ',' ',' '};
@@ -17,9 +19,13 @@ int main()
     {
         userInput(space, player);
         gameboard(space,player);
+        if(winner(space) == true || tieUP(space)== true)
+        break;
         std::cout<<"***************************************\n";
         computerInput(space,computer);
         gameboard(space,player);
+        if(winner(space)== true || tieUP(space)== true)
+        break;
     }
 }
 
@@ -69,4 +75,59 @@ void computerInput(char *space, char computer)
         }
         
     }while(true);
+}
+
+bool winner(char *space)
+{
+    
+    if((space[0] == space[1]) && (space[1] == space[2]) && (space[0] != ' '))
+        {space[0] == 'x'? std::cout<<"you won \n" : std::cout<<"computer won \n";
+        return true;
+        }
+    
+    if((space[3] == space[4]) && (space[4] == space[5]) && (space[3] != ' '))
+        {space[3] == 'x'? std::cout<<"you won \n" : std::cout<<"computer won \n";
+        return true;
+        }
+    
+    if((space[6] == space[7]) && (space[7] == space[8]) && (space[6] != ' '))
+        {space[6] == 'x'? std::cout<<"you won \n" : std::cout<<"computer won \n";
+        return true;
+        }
+    
+    if((space[0] == space[4]) && (space[4] == space[8]) && (space[0] != ' '))
+        {space[0] == 'x'? std::cout<<"you won \n" : std::cout<<"computer won \n";
+        return true;
+        }
+    
+    if((space[2] == space[4]) && (space[4] == space[6]) && (space[2] != ' '))
+        {space[2] == 'x'? std::cout<<"you won \n" : std::cout<<"computer won \n";
+        return true;
+        }
+    
+    if((space[0] == space[3]) && (space[3] == space[6]) && (space[6] != ' '))
+        {space[0] == 'x'? std::cout<<"you won \n" : std::cout<<"computer won \n";
+        return true;
+        }
+    
+    if((space[1] == space[4]) && (space[4] == space[7]) && (space[1] != ' '))
+        {space[1] == 'x'? std::cout<<"you won \n" : std::cout<<"computer won \n";
+        return true;
+        }
+    
+    if((space[2] == space[5]) && (space[5] == space[8]) && (space[8] != ' '))
+        {space[2] == 'x'? std::cout<<"you won \n" : std::cout<<"computer won \n";
+        return true;
+    }
+    return false;
+}
+bool tieUP(char *space)
+{
+    for(int i=0;i<9;i++)
+    {
+        if(space[i] == ' ')
+        return false;
+    }
+    std::cout<<"it's a draw";
+    return true;
 }
