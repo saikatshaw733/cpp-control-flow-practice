@@ -54,9 +54,9 @@ void userInput(char space[], char player)
         std::cin>>i;
         i--;
         if(space[i]== ' ')
-        space[i]= player;
+        {space[i]= player;
         break;
-        
+        }
     }while(i <=8 && i>=0);
 }
     
