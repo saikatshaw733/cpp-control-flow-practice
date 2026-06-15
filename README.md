@@ -14,5 +14,5 @@ This is a foundational practice log I wrote to practice the basic building block
 * `dice_simulator.cpp` - A  command-line game utility used as a personal sandbox to practise time-based random seeding (`srand`), and boundary mapping via the modulo operator to simulate a dynamic polyhedral dice system.
 * `ROCK_PAPER_SCISSORS.cpp` - A terminal based rock paper scissor game.
 * `array.cpp` - A basic C++ console application that demonstrates how to pass arrays into fuction to calculate cumulative sum , added a function to find an element in the array.
-* `array_sorting.cpp` - sorting algorithm in c++ using bubble sort method
-
+* `array_sorting.cpp` - sorting algorithm in c++ using bubble sort method.
+* `pass_by_reference.cpp` - a simple data exchange code to practice reduction of redundant memory allocation by pass by reference.
