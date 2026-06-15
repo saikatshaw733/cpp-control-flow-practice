@@ -17,6 +17,9 @@ int main()
     {
         userInput(space, player);
         gameboard(space,player);
+        std::cout<<"***************************************\n";
+        computerInput(space,computer);
+        gameboard(space,player);
     }
 }
 
@@ -51,3 +54,19 @@ void userInput(char space[], char player)
     }while(i <=8 && i>=0);
 }
     
+
+void computerInput(char *space, char computer)
+{
+    srand(time(NULL));
+    do
+    {
+        int x = rand();
+        int cpu = (x%9);
+        if(space[cpu] == ' ')
+        {
+            space[cpu] = computer;
+            break;
+        }
+        
+    }while(true);
+}
