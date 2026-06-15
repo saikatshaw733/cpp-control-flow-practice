@@ -47,18 +47,37 @@ void gameboard(char space[] ,char player)
 
 void userInput(char space[], char player)
 {
-    int i=0;
+    int i = 0;
     do
     {
-        std::cout<<"at what place do you want to put x : ";
-        std::cin>>i;
+        std::cout << "at what place do you want to put x : ";
+        std::cin >> i;
         i--;
-        if(space[i]== ' ')
-        {space[i]= player;
-        break;
+        if (i >= 0 && i <= 8) 
+        {
+    
+            if (space[i] == ' ') 
+            {
+                space[i] = player; 
+                break;
+            }
+            else 
+            {
+                std::cout << "That position is already taken! Try again.\n";
+                
+            }
         }
-    }while(i <=8 && i>=0);
+        else 
+        {
+           
+            std::cout << "Invalid choice! Please enter a number from 1 to 9.\n";
+           
+        }
+
+    
+    } while(i <= 8 && i >= 0); 
 }
+
     
 
 void computerInput(char *space, char computer)
