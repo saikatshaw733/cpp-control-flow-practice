@@ -16,3 +16,4 @@ This is a foundational practice log I wrote to practice the basic building block
 * `array.cpp` - A basic C++ console application that demonstrates how to pass arrays into fuction to calculate cumulative sum , added a function to find an element in the array.
 * `array_sorting.cpp` - sorting algorithm in c++ using bubble sort method.
 * `pass_by_reference.cpp` - a simple data exchange code to practice reduction of redundant memory allocation by pass by reference.
+* `tic_tac_toe.cpp` - A terminal game of tic tac toe practicing array-to-pointer decay, pass by address memory mechanics.
