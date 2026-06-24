@@ -17,4 +17,5 @@ This is a foundational practice log I wrote to practice the basic building block
 * `array_sorting.cpp` - sorting algorithm in c++ using bubble sort method.
 * `pass_by_reference.cpp` - a simple data exchange code to practice reduction of redundant memory allocation by pass by reference.
 * `tic_tac_toe.cpp` - A terminal game of tic tac toe practicing array-to-pointer decay, pass by address memory mechanics.
-* `struct.cpp` - a simple program to practice struct data type. 
+* `struct.cpp` - a simple program to practice struct data type.
+* `restaurant_menu.cpp`: Practiced using `enum` to create a custom data type, serving as a  work around in C++ switch-case string limitations.
