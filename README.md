@@ -19,3 +19,4 @@ This is a foundational practice log I wrote to practice the basic building block
 * `tic_tac_toe.cpp` - A terminal game of tic tac toe practicing array-to-pointer decay, pass by address memory mechanics.
 * `struct.cpp` - a simple program to practice struct data type.
 * `restaurant_menu.cpp`: Practiced using `enum` to create a custom data type, serving as a  work around in C++ switch-case string limitations.
+* `kettle_management.cpp`: a program to manage dog's name color and age. learnt class, constructors, objects, classifiers by this program.
